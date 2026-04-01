@@ -59,7 +59,7 @@ Tak można to zrobić manualnie
 //  ↓
 (size_t)wskaznik + n * sizeof(int) /*
                      ↑
-      Ilość bajtów które zajmuje n intów
+      Ilość bajtów które zajmuje n intów */
 ```
 
 ---
