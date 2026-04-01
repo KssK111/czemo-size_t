@@ -15,7 +15,7 @@ int arr[100] ← Wielkość tablicy
      ↑
     Nazwa tablicy [zmiennej]
 ```
-`int` nie jest typem zmiennej `arr`
+`int` nie jest typem zmiennej `arr`<br>
 `arr` jest wskaźnikiem (adresem) początku tablicy, której elementy to `int`
 
 ```c
@@ -49,7 +49,7 @@ wskaznik[0] → *(wskaznik + 0) → *wskaznik
 ```
 Przesunięcie w tym przypadku to zero, więc indeksowanie nic nie zmienia
 #### Ale w ilości czego jest wyrażane przesunięcie?<br>Ilości bitów, bajtów, a może czegoś innego
-Przesuwanie o bity nie jest możliwe, a przesuwanie o bajty prawie nigdy nie jest sensowne
+Przesuwanie o bity nie jest możliwe, a przesuwanie o bajty prawie nigdy nie jest sensowne<br>
 Dlatego przesunięcie jest wyrażone w liczbie elementów o które chcemy przesunąć wskaźnik
 ##### Kompilator sam obsłuży operacje na konkretnych wartościach
 Tak można to zrobić manualnie
